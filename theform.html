@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/thankyou.html">
+        <span><b>Please Complete the reguired form</b></span>
+        <br>
+        <br>
+        <label for="image_file"><image src="im.webp" height="90px"></image></label>
+        <input type="file"  id=image_file  style="display: none;">
+        <br>
+        <span><b>Email:</b></span>
+        <input type="email">
+        <br>
+        <span><b>Date of birth:</b></span>
+        <input type="date">
+        <br>
+        <span><b>Gender:</b>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other">
+        <br>
+        <span><b>Country:</b></span>
+        <select>
+            <option value="">Algeria</option>
+            <option value="">Benin</option>
+            <option value="">Nigeria</option>
+            <option value="">Ghana</option>
+            <option value="">Others</option>
+        </select>
+        <br>
+        <span><b>Additional Information</b></span> <br> <textarea  placeholder="Username" name="" id="" cols="30" rows="5" > </textarea>
+        <br>
+        <span><b>Must Watch</b></span>
+        <br>
+        <iframe  height="100"  width="240"  src="https://www.youtube.com/embed/X2RqZCDi9r0?si=_YoYa4n30wXEdXnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <span><b>Accept Terms and Condition</b></span>
+            <label for=""> </label>
+            <input required type="checkbox">
+            
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
